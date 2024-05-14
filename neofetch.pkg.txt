@@ -2,7 +2,7 @@
 NAME = neofetch
 VERSION = 7.1
 DESCRIPTION = CLI system information tool, written in bash
-GIT = https://github.com/dylanaraps/neofetch
+GIT = https://github.com/stpettersens/neofetch
 LOCKED = 0
 BUILD = patch neofetch < neofetch.diff && make install
 FILES:
