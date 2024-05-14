@@ -1,0 +1,10 @@
+[PACKAGE]
+NAME = neofetch
+VERSION = 7.1
+DESCRIPTION = CLI system information tool, written in bash
+GIT = https://github.com/dylanaraps/neofetch
+LOCKED = 0
+BUILD = patch neofetch < neofetch.diff && make install
+FILES:
+/usr/bin/neofetch
+/usr/share/man/man1/neofetch.1

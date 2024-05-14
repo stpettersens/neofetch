@@ -1,0 +1,20 @@
+--- neofetch	2023-05-28 23:03:37.502853398 +0100
++++ neofetch.mod	2023-05-28 23:01:09.135454123 +0100
+@@ -1641,9 +1641,15 @@
+             has snap && ps -e | grep -qFm 1 snapd >/dev/null && \
+             pkgs_h=1 tot snap list && ((packages-=1))
+
+-            # This is the only standard location for appimages.
++            # AppImages installed in ~/Applications.
+             # See: https://github.com/AppImage/AppImageKit/wiki
+-            manager=appimage && has appimaged && dir ~/.local/bin/*.appimage
++            #manager=AppImage && dir ~/Applications/*.appimage
++
++            # Cargo packages
++            #manager=Cargo && dir ~/.cargo/bin/*
++
++            # FromSrc
++            manager=FromSrc && dir ~/.s/*
+         ;;
+
+         "Mac OS X"|"macOS"|MINIX)
