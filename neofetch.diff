@@ -1,5 +1,5 @@
---- neofetch	2024-05-14 22:14:21.192273209 +0100
-+++ neofetch.modified	2024-05-14 22:30:22.752275832 +0100
+--- neofetch    2024-05-14 22:14:21.192273209 +0100
++++ neofetch.modified   2024-05-14 22:30:22.752275832 +0100
 @@ -1641,9 +1641,18 @@
              has snap && ps -e | grep -qFm 1 snapd >/dev/null && \
              pkgs_h=1 tot snap list && ((packages-=1))
@@ -17,7 +17,7 @@
 +            #manager=FromSrc && dir ~/.s/*
 +
 +            # SImple Package manager
-+            manager=SIP && sip count
++            manager=SIP && tot sip packages
          ;;
  
          "Mac OS X"|"macOS"|MINIX)
