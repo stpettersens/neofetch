@@ -8,7 +8,7 @@
 +            # AppImages installed in ~/Applications.
              # See: https://github.com/AppImage/AppImageKit/wiki
 -            manager=appimage && has appimaged && dir ~/.local/bin/*.appimage
-+            #manager=AppImage && dir ~/Applications/*.appimage
++            manager=AppImage && dir ~/Applications/*.appimage
 +
 +            # Cargo packages
 +            #manager=Cargo && dir ~/.cargo/bin/*
