@@ -1,6 +1,8 @@
 [PACKAGE]
 NAME = neofetch
 VERSION = 7.1
+AUTHOR = Dylan Araps
+MAINTAINER = Sam Saint-Pettersen
 DESCRIPTION = CLI system information tool, written in bash
 GIT = https://github.com/stpettersens/neofetch
 LOCKED = 0
